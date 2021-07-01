@@ -2,7 +2,7 @@
 #nav_menu ul li { float: left;}
 #nav_menu ul li a { 
     text-align: center;
-    display: block;
+    display: inline-block;
     width: 175px;
     padding: 1em 0;
     background-color: #7a0F05;
