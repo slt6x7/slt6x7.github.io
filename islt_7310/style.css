@@ -1,3 +1,14 @@
+body {
+    border: none;
+    margin: 10px;
+}
+
 h1 {
     color: rgb(204, 0, 0)
 }
+
+/*styles for the main content*/
+main p::first-letter { font-size: 150% }
+main p::first-letter { font-weight: bold }
+main p { text-indent: 2em }
+main p:first-child::first-line { text-indent: 0 }
