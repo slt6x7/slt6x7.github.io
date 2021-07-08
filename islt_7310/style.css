@@ -1,14 +1,48 @@
+/*styles for header*/
+header {
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+header img {
+    width: 100%;
+    height: auto;
+}
+
 body {
     border: none;
-    margin: 10px;
+    margin: 20px;
 }
 
 h1 {
     color: rgb(204, 0, 0)
 }
 
-/*styles for the main content*/
-main p::first-letter { font-size: 150% }
-main p::first-letter { font-weight: bold }
-main p { text-indent: 2em }
-main p:first-child::first-line { text-indent: 0 }
+h3 {
+    color: rgb(204, 0, 0)
+}
+
+/*styles for the sidebar*/
+aside {
+    width: 25%;
+    float: right;
+    padding: 20px;
+    margin-right: 40px;
+
+}
+
+main img {
+    border: 1px solid;
+    width: 100%;
+    height: auto;
+  
+  }
+/* styles for grid*/
+section {
+    display: grid;
+    grid-template: 300px 300px /300px 400px;
+    grid-gap: 50px 25px;
+    margin-left: 40px;
+}
+
+

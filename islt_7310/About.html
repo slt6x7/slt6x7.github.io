@@ -24,18 +24,20 @@ Tested:  July 4, 2021; Passed on Firefox and Chrome browsers.
 <head>
                <meta charset="utf-8">
                <title>About Me</title>
+               <meta name="viewport" content="width=device-width, initial-scale=1">
                <link rel="stylesheet" href="style.css"> 
                <link rel="stylesheet" href="nav.css">
 </head>
 <body>
-    <header>
+    <header><img src="LibraryPhoto.jpg" alt="Library Photo">
+
         <h1>Sherry Taylor's Portfolio</h1>
     </header>
     <nav id="nav_menu">
             <ul>
                 <li><a href="Index.html">Home</a></li>
                 <li><a href="About.html">About</a></li>
-                <li><a href="Projects.html">Projects</a></li>
+                <li><a href="Projects.html">Projects</a>
                 <ul>
                     <li>Link 1</li>
                     <li>Link 2</li>
@@ -45,21 +47,24 @@ Tested:  July 4, 2021; Passed on Firefox and Chrome browsers.
                 <li><a href="#Contact.html">Contact</a></li>
             </ul>  
     </nav>
-<br>
-<br>
-<br>
-<br>
+
     <main>
-        <h3>About Me</h3>
-        <img src="images/Sherryheadshot.png" alt="Sherry Taylor">
-        <p>My name is <em>Sherry Taylor.</em> I live in Webster Groves with my husband and two college-aged children. I have two young adult children in the <em>beginning stages</em> of <q>adulting.</q>  In my free time I enjoy playing tennis, practicing yoga, and dabbling in different arts and crafts, such as quilting, knitting, and weaving.</p> 
-        <p>I will complete the Masters of Library Science program at University of Missouri- Columbia in December of 2021.  I also have a law degree from St. Louis University School of Law.  I am currently in the middle of my practicum for the MLS program at the Law Library Association of St. Louis.</p>
-        <p>One of my favorite quotes is:</p>   
+        <aside>
+        <h2><em>One of my favorite quotes:</em></h2>
         <blockquote>It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.</blockquote>
         
         <p>by <strong>Theodore Roosevelt</strong></p>
-        <p><a href="Resume.pdf">View my resume</a></p>
-        <p><a href="Digitalresume.gif">View my digital resume</a></p>
+        </aside>
+        <section>
+                <div><img src="Sherryheadshot.png" alt="Sherry Taylor"></div>
+                <div><h3>About Me</h3>
+                <p>My name is <em>Sherry Taylor.</em> I live in Webster Groves with my husband and two college-aged children. I have two young adult children in the <em>beginning stages</em> of <q>adulting.</q>  In my free time I enjoy playing tennis, practicing yoga, and dabbling in different arts and crafts, such as quilting, knitting, and weaving.</p> 
+                 <p>I will complete the Masters of Library Science program at University of Missouri- Columbia in December of 2021.  I also have a law degree from St. Louis University School of Law.  I am currently in the middle of my practicum for the MLS program at the Law Library Association of St. Louis.</p></div>
+        
+                 <div><p><a href="Resume.pdf">View my resume</a></p></div>
+                <div><p><a href="Digitalresume.gif">View my digital resume</a></p></div>
+        </section>
+    
     </main>
     <footer>&copy; Copyright 2021 Sherry Taylor slt6x7@mail.missouri.edu</footer>
 </body>

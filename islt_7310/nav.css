@@ -1,12 +1,12 @@
 #nav_menu ul { 
     list-style-type: none; 
     position: relative; }
-#nav_menu ul li { float: left;}
+#nav_menu ul li { float: right;}
 #nav_menu ul li a { 
     text-align: center;
     display: block;
     width: 200px;
-    padding: 2em 0;
+    padding: 1em 0;
     background-color: #7a0F05;
     color: white;
     text-decoration: none; }
@@ -17,6 +17,7 @@
     top: 100%;
 }
 #nav_menu ul ul li { float: none; }
+#nav_menu ul li a.lastitem { border-right: none;}
 
 #nav_menu ul li:hover > ul {
     display: block; 
