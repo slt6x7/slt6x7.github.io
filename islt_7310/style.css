@@ -1,8 +1,12 @@
 /*styles for header*/
 header {
+    top: 0;
     width: 100%;
     margin-left: 40px;
     margin-right: 40px;
+}
+#hamburger {
+    display: none;
 }
 header img {
     width: 100%;
@@ -10,6 +14,7 @@ header img {
 }
 
 body {
+    width: 100%;
     border: none;
     margin: 20px;
 }
@@ -45,4 +50,51 @@ section {
     margin-left: 40px;
 }
 
+@media screen and (max-width:640px) {
+    #hamburger {
+        display: inline-block;
+        color:rgb(204, 0, 0);
+        width: 26px;
+    }
+    nav ul, nav:active ul {
+        display: none;
+        position: absolute;
+        padding: 20px 20px 20px 0px;
+        top: 20px
+    }
+    nav:hover ul {
+        display: block;
+    }
+    nav li {
+        text-align: center;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+    nav>ul li {
+    text-align: left;
+    color:rgb(204, 0, 0);
+    float: left;
+    }
 
+
+    main {
+        width: 300px;
+        float: left;
+    } 
+    aside {
+        width: 100%;
+        float: left
+    }
+    section {
+        width: 100%;
+        float: left;
+    }
+    footer {
+        width: 100%;
+        float: left;
+    }
+}
+
+
+    
