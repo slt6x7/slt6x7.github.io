@@ -17,7 +17,7 @@ body {
     width: 100%;
     border: none;
     margin: 20px;
-    font-family: "Garamond", sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 14pt;
     font-weight: 500;
 }
@@ -43,6 +43,7 @@ section {
     grid-template: 2fr 2fr / 25% 50%;
     grid-gap: 50px 25px;
     margin-left: 40px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /*styles for the sidebar*/
 aside {
@@ -50,7 +51,8 @@ aside {
     float: right;
     padding: 20px;
     margin-right: 40px;
-
+    font-family: garamond, sans-serif;
+    
 }
 
 /* styles for grid on Projects Page*/
