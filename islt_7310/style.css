@@ -17,6 +17,9 @@ body {
     width: 100%;
     border: none;
     margin: 20px;
+    font-family: "Garamond", sans-serif;
+    font-size: 14pt;
+    font-weight: 500;
 }
 
 h1 {
@@ -27,6 +30,20 @@ h3 {
     color: rgb(204, 0, 0)
 }
 
+main img {
+    border: 1px solid;
+    width: 100%;
+    height: auto;
+  
+  }
+
+  /* styles for grid on About Page*/
+section {
+    display: grid;
+    grid-template: 2fr 2fr / 25% 50%;
+    grid-gap: 50px 25px;
+    margin-left: 40px;
+}
 /*styles for the sidebar*/
 aside {
     width: 25%;
@@ -36,24 +53,25 @@ aside {
 
 }
 
-main img {
-    border: 1px solid;
-    width: 100%;
-    height: auto;
-  
-  }
-/* styles for grid*/
-section {
-    display: grid;
-    grid-template: 300px 300px /300px 400px;
-    grid-gap: 50px 25px;
-    margin-left: 40px;
+/* styles for grid on Projects Page*/
+.class-for-projects
+ main {
+     display: grid;
+     grid-template-rows: 1fr 1fr;
+     grid-template-columns: 50% 50%;
+     grid-gap: 40px;
+     margin-left: 40px;
+ }
+/* styles for Index Page*/
+.class-for-index 
+main { 
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-@media screen and (max-width:640px) {
+@media screen and (max-width: 640px) {
     #hamburger {
         display: inline-block;
-        color:rgb(204, 0, 0);
+        color: rgb(204, 0, 0);
         width: 26px;
     }
     nav ul, nav:active ul {
@@ -77,22 +95,24 @@ section {
     float: left;
     }
 
-
     main {
-        width: 300px;
-        float: left;
-    } 
-    aside {
         width: 100%;
-        float: left
+        float: left;
+        font-size: 14pt;
+        line-height: 1.25;
+    } 
+       section {
+        width: 100%;
+        float: left;
     }
-    section {
+    aside {
         width: 100%;
         float: left;
     }
     footer {
         width: 100%;
         float: left;
+        font-size: 14pt
     }
 }
 

@@ -5,6 +5,8 @@
 }
 #nav_menu ul li { 
     float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
     }
 #nav_menu ul li a { 
     text-align: center;
