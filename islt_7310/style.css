@@ -28,11 +28,11 @@ body {
 }
 
 h1 {
-    color: rgb(204, 0, 0)
+    color:  #7a0f05;
 }
 
 h3 {
-    color: rgb(204, 0, 0)
+    color:  #7a0f05;
 }
 
 main img {
@@ -40,6 +40,13 @@ main img {
     width: 100%;
     height: auto;
   
+  }
+  /*styles for footer*/
+footer {
+        background-image: url(Images/Libraryfooter2.jpg);
+        width: 100%;
+        font-size: 18pt;
+        font-weight: 400;
   }
 
   /* styles for grid on About Page*/
@@ -78,7 +85,7 @@ main {
 @media screen and (max-width: 640px) {
     #hamburger {
         display: inline-block;
-        color: rgb(204, 0, 0);
+        color:  #7a0f05;;
         width: 26px;
     }
     nav ul, nav:active ul {
@@ -98,7 +105,7 @@ main {
     }
     nav>ul li {
     text-align: left;
-    color:rgb(204, 0, 0);
+    color: #7a0f05;
     float: left;
     }
 
@@ -133,7 +140,7 @@ main {
 }
 @page {
     margins: 1inch;
-    
+
 }
 }
     
