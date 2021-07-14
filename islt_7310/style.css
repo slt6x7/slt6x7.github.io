@@ -43,10 +43,13 @@ main img {
   }
   /*styles for footer*/
 footer {
-        background-image: url(Images/Libraryfooter2.jpg);
+        background-image: url(Images/Libraryfooter3.jpg);
+        border-image: top 3px solid #7a0f05;
         width: 100%;
-        font-size: 18pt;
+        height: 30px;
+        font-size: 20pt;
         font-weight: 400;
+        font-family: EB Garamond, san serif;
   }
 
   /* styles for grid on About Page*/
@@ -59,7 +62,7 @@ section {
 }
 /*styles for the sidebar*/
 aside {
-    width: 25%;
+    width: 35%;
     float: right;
     padding: 20px;
     margin-right: 40px;
@@ -85,7 +88,7 @@ main {
 @media screen and (max-width: 640px) {
     #hamburger {
         display: inline-block;
-        color:  #7a0f05;;
+        color:  #7a0f05;
         width: 26px;
     }
     nav ul, nav:active ul {
