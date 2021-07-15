@@ -44,12 +44,18 @@ main img {
   /*styles for footer*/
 footer {
         background-image: url(Images/Libraryfooter3.jpg);
-        border-image: top 3px solid #7a0f05;
         width: 100%;
         font-size: 20pt;
         font-weight: 400;
         font-family: EB Garamond, san serif;
   }
+.phoneicon:hover {
+    transform: scale(2);
+}
+
+.Emailicon:hover {
+        transform: scale(2);        
+    }
 
   /* styles for grid on About Page*/
 section {
@@ -137,12 +143,11 @@ main {
         display: none;
         }
 * {
-    font: black;
+    color: #000000; 
     font-family:Georgia, 'Times New Roman', Times, serif;
 }
 @page {
-    margins: 1inch;
-
+    margin: 1in;
 }
 }
     
