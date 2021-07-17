@@ -23,9 +23,9 @@ body {
     width: 100%;
     border: none;
     margin: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14pt;
-    font-weight: 500;
+    font-family: EB Garamond, serif;
+    font-size: 15pt;
+    font-weight: bolder;
 }
 
 h1 {
@@ -34,6 +34,7 @@ h1 {
 
 h3 {
     color:  #7a0f05;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 main img {
@@ -64,7 +65,7 @@ section {
     grid-template: 2fr 2fr / 25% 50%;
     grid-gap: 50px 25px;
     margin-left: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: EB Garamond, sans-serif;
 }
 /*styles for the sidebar*/
 aside {
@@ -73,6 +74,7 @@ aside {
     padding: 20px;
     margin-right: 40px;
     font-family: EB Garamond, sans-serif;
+    font-weight: normal;
     
 }
 
@@ -80,7 +82,7 @@ aside {
 .class-for-projects
  main {
      display: grid;
-     grid-template-rows: 1fr 1fr;
+     grid-template-rows: 50% 50%;
      grid-template-columns: 50% 50%;
      grid-gap: 40px;
      margin-left: 40px;
