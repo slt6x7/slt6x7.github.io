@@ -129,6 +129,7 @@ aside img {
     margin-left: 20px;
     height: 225px;
     width: auto;
+    padding-right: 40px;
 }
 .class-for-index
 section {
@@ -180,7 +181,7 @@ main {
         font-size: 14pt;
         line-height: 1.25;
     } 
-       section {
+    section {
         width: 100%;
         float: left;
     }
@@ -196,7 +197,7 @@ main {
 }
 /* print stylesheet*/
 @media print {
-    header, nav {
+    header, nav, main img {
         display: none;
         }
 * {
