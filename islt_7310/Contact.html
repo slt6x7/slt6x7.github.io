@@ -1,0 +1,85 @@
+<!--
+
+*****************************************************************************
+
+Title:  Contact Page
+
+Use:  To introduce myself.
+
+Author:  Sherry Taylor
+
+School/Term:  SISLT Mizzou, Summer 2020
+
+Developed: July 18, 2021
+
+Tested:  July 19, 2021; Passed on Firefox and Chrome browsers.
+
+******************************************************************************
+
+-->
+
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="Contact.css">
+</head>
+<body>
+    <header>
+        <img src="Images/LibraryPhoto.jpg" alt="Library Photo">
+    </header>
+
+    <nav id="nav_menu">
+        <h2>Portfolio Contact Page</h2>
+        <label id="hamburger">&#9776;</label>
+            <ul>
+                <li><a href="#Contact.html">Contact</a></li>
+                <li><a href="Projects.html">Projects</a>
+                <ul>
+                    <li>Special Libraries Presentation</li>
+                    <li>LibGuide Creation</li>
+                    <li>Grant Narrative</li>
+                    <li>Advocacy Paper</li>
+                    
+                </ul>
+                <li><a href="Reflection.html">Reflection</a></li>
+                <li><a href="About.html">About</a></li>
+                <li><a href="Index.html">Home</a></li>
+            </ul>  
+    </nav>   
+<main>
+    <aside>
+        <p><img src="Images/LargerSTLogo.png" alt="ST Logo"></p>
+    </aside>
+    <section>
+        Please use this form to contact me, including your name, email, and a brief message.  Thank you!<br>
+    <form action="mailto:slt6x7@mail.missouri.edu?Subject=Portfolio%20Comment" method="post" enctype="text/plain">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" autofocus required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br>
+        <label for="email">Email address:</label><br>
+        <input type="email" id="email" name ="email" required><br>
+        Message: <br>
+        <textarea id="Messages"
+            placeholder="If you have a specific message, please enter it here.">
+        </textarea>
+        <br>
+        <input type="submit" id="button" value="Submit">
+      </form>
+    </section>
+</main>      
+<footer>
+    <br>
+    <img src="Images/phoneicon.png" alt="Phone Number" class="phoneicon"> 1-333-666-9999
+    <img src="Images/Emailicon.png" alt="Email address" class="Emailicon"> <a href="mailto:slt6x7@missouri.mail.edu"> slt6x7@missouri.mail.edu</a>
+    <p>&copy; Copyright 2021 Sherry Taylor</p>
+</footer>
+</body>
+</html>

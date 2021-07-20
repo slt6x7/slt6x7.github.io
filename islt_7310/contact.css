@@ -1,0 +1,50 @@
+#nav_menu h2 {
+    float: left;
+    margin-left: 40px;
+}
+aside {
+    float: left;
+    margin-left: 80px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+aside img {
+    margin-left: 20px;
+    height: 225px;
+    width: auto;
+    padding-right: 40px;
+}
+
+form {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+label {
+    float: left;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: right;
+}
+input {
+    width: 15em;
+    margin-left: 1 em;
+    margin-bottom: .5em;
+}
+input:focus {
+    border: 2px solid black
+}
+textarea {
+    height: 4em;
+    width: 50em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#Messages {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#button {
+    background-color:  #F2A341;
+}

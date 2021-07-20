@@ -1,7 +1,9 @@
+#nav_menu {
+    width:100%;
+}
 #nav_menu ul { 
     list-style-type: none; 
     position: relative; 
-    margin-right: 20px;
 }
 #nav_menu ul li { 
     float: right;

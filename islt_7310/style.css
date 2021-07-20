@@ -61,6 +61,12 @@ footer {
     }
 
   /* styles for grid on About Page*/
+  .class-for-about
+#nav_menu h2 {
+    float: left;
+    margin-left: 40px;
+}
+
 .class-for-about
 section {
     display: grid;
@@ -87,10 +93,46 @@ aside {
     margin-right: 40px;
     font-family: "EB Garamond", sans-serif;
     font-weight: normal;
+    }
     
+.figure
+figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+figure {
+    border: none;
+    width: 425px;
+}
+figcaption {
+    font-weight: bold;
+    text-align: center;
+    font-size: 125%;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid black;
+    padding: .3em .5em;
+    text-align: right;
+}
+th.left, td.left {
+    text-align: left;
+}
+thead, tfoot {
+    background-color: #F2A341;
+    font-weight: bold;
 }
 
 /* styles for grid on Projects Page*/
+.class-for-projects
+#nav_menu h2 {
+    float: left;
+    margin-left: 40px;
+}
+
 .class-for-projects
  main {
      display: grid;
@@ -98,6 +140,9 @@ aside {
      grid-template-columns: 50% 50%;
      grid-column-gap: 40px;
      grid-row-gap: 0;
+     grid-template-areas:
+            "SpecialLibraries LibGuide"
+            "GrantNarrative AdvocacyPaper";
      margin-left: 40px;
      margin-right: 60px;
  }
@@ -110,6 +155,12 @@ aside {
 
 
 /* styles for Index Page*/
+.class-for-index
+#nav_menu h2 {
+    float: left;
+    margin-left: 40px;
+}
+
 .class-for-index 
 main { 
     font-family: "EB Garamond", sans-serif;
@@ -140,6 +191,11 @@ section {
 
 
 /*styles for Reflection Page*/
+.class-for-reflection
+#nav_menu h2 {
+    float: left;
+    margin-left: 40px;
+}
 .class-for-reflection
 main {
     margin-left: 50px;
