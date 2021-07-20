@@ -37,11 +37,6 @@ h3 {
     color:  #7a0f05;
     font-family: Arial, Helvetica, sans-serif;
 }
-main img {
-    width: 100%;
-    height: auto;
-    border: black 3px;
-}
 
 
   /*styles for footer*/
@@ -75,6 +70,14 @@ section {
     margin-left: 40px;
     font-family: "EB Garamond", sans-serif;
 }
+.class-for-about
+main img {
+    width: 100%;
+    height: auto;
+    border: black 3px;
+}
+
+.class-for-about
 section img {
     border: 2px solid #000000;
 }
