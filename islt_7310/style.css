@@ -43,7 +43,7 @@ h3 {
 footer {
         background-image: url(Images/Libraryfooter3.jpg);
         width: 100%;
-        font-size: 20pt;
+        font-size: 16pt;
         font-weight: 400;
         font-family: "EB Garamond", sans-serif;
   }
@@ -125,73 +125,12 @@ th.left, td.left {
     text-align: left;
 }
 thead, tfoot {
-    background-color: #F2A341;
+    background-color: #D9763D;
     font-weight: bold;
 }
-
-/* styles for grid on Projects Page*/
-.class-for-projects
-#nav_menu h2 {
-    float: left;
-    margin-left: 40px;
+tbody tr:nth-child(odd) {
+    background-color: #F2A341;
 }
-
-.class-for-projects
- main {
-     display: grid;
-     grid-template-rows: 1fr 1fr;
-     grid-template-columns: 50% 50%;
-     grid-column-gap: 40px;
-     grid-row-gap: 0;
-     grid-template-areas:
-            "SpecialLibraries LibGuide"
-            "GrantNarrative AdvocacyPaper";
-     margin-left: 40px;
-     margin-right: 60px;
- }
- .class-for-projects
- main img {
-     border: 1px solid #000000;
-     width: 100%;
-     max-width: 350px;
- }
-
-
-/* styles for Index Page*/
-.class-for-index
-#nav_menu h2 {
-    float: left;
-    margin-left: 40px;
-}
-
-.class-for-index 
-main { 
-    font-family: "EB Garamond", sans-serif;
-    margin-right: 40px;
-    margin-left: 40px;
-    padding-bottom: 40px;
-}
-.class-for-index
-aside {
-    float: left;
-    margin-left: 80px;
-    padding-bottom: 40px;
-    padding-right: 40px;
-}
-.class-for-index
-aside img {
-    margin-left: 20px;
-    height: 225px;
-    width: auto;
-    padding-right: 40px;
-}
-.class-for-index
-section {
-    margin-left: 40px;
-    margin-right: 40px;
-    padding-bottom: 50px;
-}
-
 
 /*styles for Reflection Page*/
 .class-for-reflection
