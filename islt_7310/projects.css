@@ -1,0 +1,43 @@
+/*styles for Projects Page*/
+#nav_menu h2 {
+    float: left;
+    margin-left: 40px;
+}
+
+main { 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 60% 40%;
+    grid-column-gap: 20px;
+    grid-template-areas: "Special Libraries SLArtifact"
+                         "LibGuides LGArtifact"
+                         "GrantNarrative GNArtifact"
+                         "AdvocacyPaper APArtifact";
+    font-family: "EB Garamond", sans-serif;
+    margin-right: 60px;
+    margin-left: 60px;
+    padding-bottom: 10px;
+}
+main img { 
+    width: 100%;
+    max-height: 300px;
+    border: 2px solid black;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 640px) {
+    main {
+        float: left;
+        grid-gap: 0;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "Special Libraries"
+                             "SLArtifact"
+                             "LibGuides"
+                             "LGArtifact"
+                             "GrantMarrative"
+                             "GNArtifact"
+                             "AdvocacyPaper"
+                             "APArtifact";
+    }
+}
