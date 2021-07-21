@@ -1,0 +1,49 @@
+
+/* styles for Index Page*/
+
+#nav_menu h2 {
+    float: left;
+    margin-left: 40px;
+}
+main { 
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 40px;
+    grid-template-areas: "Aside Section";
+    font-family: "EB Garamond", sans-serif;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+aside {
+    float: left;
+    margin-left: 80px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+}
+aside img {
+    margin-left: 20px;
+    height: 200px;
+    width: auto;
+    padding-right: 40px;
+}
+section {
+    margin-left: 40px;
+    margin-right: 40px;
+    padding-bottom: 50px;
+}
+@media screen and (max-width: 640px) {
+    main {
+        float: left;
+        grid-gap: 0;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "Aside"
+                             "Section";
+    }
+    section {
+        float: left;
+        width: 100%
+    }
+}
