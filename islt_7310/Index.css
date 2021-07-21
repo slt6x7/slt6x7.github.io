@@ -5,17 +5,7 @@
     float: left;
     margin-left: 40px;
 }
-main { 
-    display: grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 30% 70%;
-    grid-column-gap: 40px;
-    grid-template-areas: "Aside Section";
-    font-family: "EB Garamond", sans-serif;
-    margin-right: 40px;
-    margin-left: 40px;
-    padding-bottom: 40px;
-}
+
 aside {
     float: left;
     margin-left: 80px;
@@ -24,7 +14,7 @@ aside {
 }
 aside img {
     margin-left: 20px;
-    height: 200px;
+    height: 225px;
     width: auto;
     padding-right: 40px;
 }
