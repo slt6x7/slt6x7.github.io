@@ -6,6 +6,21 @@
     margin-left: 40px;
 }
 
+main { 
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 30% 70%;
+    grid-column-gap: 40px;
+    grid-template-areas: "Aside Section";
+    font-family: "EB Garamond", sans-serif;
+    margin-right: 40px;
+    margin-left: 40px;
+    padding-bottom: 40px;
+}
+main img {
+    width: 100%;
+    height: auto;
+}
 aside {
     float: left;
     margin-left: 80px;
