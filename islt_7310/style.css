@@ -43,7 +43,7 @@ h3 {
 footer {
         background-image: url(Images/Libraryfooter3.jpg);
         width: 100%;
-        font-size: 16pt;
+        font-size: 15pt;
         font-weight: 400;
         font-family: "EB Garamond", sans-serif;
   }
@@ -172,7 +172,6 @@ main {
     color: #7a0f05;
     float: left;
     }
-
     main {
         width: 100%;
         float: left;
