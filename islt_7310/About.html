@@ -2,7 +2,7 @@
 
 *****************************************************************************
 
-Title:  About Page
+Title:  About Page Test with Grid
 
 Use:  To introduce myself.
 
@@ -30,6 +30,7 @@ Tested:  July 20, 2021; Passed on Firefox and Chrome browsers.
                <link rel="stylesheet" href="style.css"> 
                <link rel="stylesheet" href="nav.css">
                <link rel="stylesheet" href="table.css">
+               <link rel="stylesheet" href="AboutTestGrid.css">
 </head>
 <body class="class-for-about">
     <header>
@@ -54,23 +55,50 @@ Tested:  July 20, 2021; Passed on Firefox and Chrome browsers.
                 <li><a href="Index.html">Home</a></li>
             </ul>  
     </nav>    
-    <main>
-        <aside>
+<main>
+    <div class="grid-container">
+        <div class="Headshot">
+            <img src="Images/Sherryheadshot.png" alt="Sherry Taylor">
+         </div>
+        <div class="AboutMe">
+        <h3>About Me</h3>
+            <p>My name is <em>Sherry Taylor.</em> I live in Webster Groves with my husband and two college-aged children who are in the <em>beginning stages</em> of <q>adulting.</q>  In my free time I enjoy playing tennis, pickleball, taking walks, practicing yoga, and dabbling in different arts and crafts, such as quilting, knitting, and weaving.</p> 
+            <p><h3>Education</h3></p>
+            <ul class="disc">
+                <li>Washington University in St. Louis, BA, Poltical Science, 1988</li>
+                <li>St. Louis Univerisity School of Law, J.D., 1991</li>
+                <li>University of Missouri-Columbia, MLIS, expected date of completion December 2021</li>
+            </ul> 
+            <p>I am currently finishing my practicum for the MLIS program at the Law Library Association of St. Louis. I would like to continue to pursue law librarianship in the future.</p>
+        </div>
+        <div class="Resume">
+        <p><a href="Resume.pdf" type="application/pdf" target="_blank"><img src="Images/ResumeSnapshot.PNG" alt="Resume">
+                View my resume</a></p>
+        </div>
+        <div class="VideoResume">
+            <p><video width="300" controls border: 2px solid #00000" > 
+                <source src="Sherryvideoresume.mp4" type="video/mp4">
+            </video>
+            <p>View my digital resume</p>
+        </div>
+        <div class="Quote">
             <h3><em>One of my favorite quotes:</em></h3>
             <blockquote>It is not the critic who counts; not the man who points out how the strong man stumbles, or where the doer of deeds could have done them better. The credit belongs to the man who is actually in the arena, whose face is marred by dust and sweat and blood; who strives valiantly; who errs, who comes short again and again, because there is no effort without error and shortcoming; but who does actually strive to do the deeds; who knows great enthusiasms, the great devotions; who spends himself in a worthy cause; who at the best knows in the end the triumph of high achievement, and who at the worst, if he fails, at least fails while daring greatly, so that his place shall never be with those cold and timid souls who neither know victory nor defeat.</blockquote>
             
             <p>by <strong>Theodore Roosevelt</strong></p>
+        </div>
+        <div class="Table">
             <figure>
                 <figcaption>MLIS Degree Status</figcaption>
-            <table>
-            <thead>
+                <table>
+                <thead>
                 <tr>
                     <th class="left">Credits Status</th>
                     <th>Number</th>
                     <th class="left">Notes</th>
                 </tr>
-            </thead>
-            <tbody>
+                </thead>
+                <tbody>
                 <tr>
                     <td class="left">Completed</td>
                     <td>30</td>
@@ -87,47 +115,23 @@ Tested:  July 20, 2021; Passed on Firefox and Chrome browsers.
                     <td class="left">Planned for Fall 2021</td>
                 </tr>
                 </tbody>
-            <tfoot>
+                <tfoot>
                 <tr>
                     <th class="left">Total Credits</th>
                     <td>39</td>
                     <td class="left">Planned completion Dec. 2021</td>
                 </tr>
-            </tfoot>
-            </table>
+                </tfoot>
+                </table>
             </figure>
-
-        </aside>
-        <section>
-                <div><img src="Images/Sherryheadshot.png" alt="Sherry Taylor">
-                </div>
-                <div><h3>About Me</h3>
-                <p>My name is <em>Sherry Taylor.</em> I live in Webster Groves with my husband and two college-aged children who are in the <em>beginning stages</em> of <q>adulting.</q>  In my free time I enjoy playing tennis, pickleball, taking walks, practicing yoga, and dabbling in different arts and crafts, such as quilting, knitting, and weaving.</p> 
-                <div><h3>Education</h3></div>
-                <ul class="disc">
-                    <li>Washington University in St. Louis, BA, Poltical Science, 1988</li>
-                    <li>St. Louis Univerisity School of Law, J.D., 1991</li>
-                    <li>University of Missouri-Columbia, MLIS, expected date of completion December 2021</li>
-                </ul> 
-                <p>I am currently finishing my practicum for the MLIS program at the Law Library Association of St. Louis. I would like to continue to pursue law librarianship in the future.</p></div>
-        
-                 <div><p><a href="Resume.pdf" type="application/pdf" target="_blank"><img src="Images/ResumeSnapshot.PNG" alt="Resume">
-                    View my resume</a></p></div>
-                 <div>
-                <p><video width="300" controls> 
-                    <source src="Sherryvideoresume.mp4" type="video/mp4">
-                </video>
-                <p>View my digital resume</p>
-                </div>
-        </section>
- 
-    
-    </main>
-    <footer>
+        </div>
+    </div>
+</main>
+<footer>
         <br>
         <img src="Images/phoneicon.png" alt="Phone Number" class="phoneicon"> 1-333-666-9999
         <img src="Images/Emailicon.png" alt="Email address" class="Emailicon"> <a href="mailto:slt6x7@missouri.mail.edu"> slt6x7@missouri.mail.edu</a>
         <p>&copy; Copyright 2021 Sherry Taylor</p>
-    </footer>
+</footer>
 </body>
 </html>

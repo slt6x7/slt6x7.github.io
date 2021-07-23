@@ -1,0 +1,106 @@
+  /* styles for grid on About Page*/
+ 
+
+main {
+    width: 100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-family:"EB Garamond", sans-serif;
+}
+.grid-container 
+    img {
+    width: 100%;
+    border: 2px solid black;
+}
+.grid-container
+    video {
+        border: 2px solid black;
+    }
+
+.grid-container {
+    margin-left: 20px;
+    margin-right: 40px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 20% 40% 40%;
+    grid-row-gap: 0px;
+    grid-column-gap: 20px;
+    grid-template-areas:
+                "Headshot AboutMe Quote"
+                "Resume VideoResume Table";
+
+}
+.Headshot { grid-area: Headshot;
+    }
+
+.AboutMe { grid-area: AboutMe; }
+
+
+.Resume {
+    grid-area: Resume;
+}
+
+.VideoResume { grid-area: VideoResume; 
+}
+    
+.Quote { grid-area: Quote; 
+        font-weight: lighter;}
+    
+.Table { grid-area: Table; }
+
+.figure
+figure, figcaption {
+    margin: 0;
+    padding: 0;
+}
+figure {
+    border: none;
+    width: 425px;
+}
+figcaption {
+    font-weight: bold;
+    text-align: center;
+    font-size: 125%;
+}
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    border: 2px solid black;
+    padding: .3em .5em;
+    text-align: right;
+}
+th.left, td.left {
+    text-align: left;
+}
+thead, tfoot {
+    background-color: #D9763D;
+    font-weight: bold;
+}
+tbody tr:nth-child(odd) {
+    background-color: #F2A341;
+}
+
+
+@media screen and (max-width: 640px) {
+.grid-container {
+    display: grid;
+    float: left;
+    grid-gap: 0;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    grid-template-areas: "Headshot"
+                        "AboutMe"
+                        "Resume"
+                        "VideoResume"
+                        "Quote"
+                        "Table";
+
+}
+footer {
+    width: 100%;
+    float: left;
+    font-size: 14pt
+}
+}
