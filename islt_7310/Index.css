@@ -1,22 +1,7 @@
 
 /* styles for Index Page*/
 
-main { 
-    display: grid;
-    grid-template-rows: 100%;
-    grid-template-columns: 30% 70%;
-    grid-column-gap: 40px;
-    grid-template-areas: "Aside Section";
-    font-family: "EB Garamond", sans-serif;
-    margin-right: 40px;
-    margin-left: 40px;
-    padding-bottom: 40px;
-}
-main img {
-    width: 100%;
-    height: auto;
-}
-.Aside { grid-area: Aside;
+aside {
     float: left;
     margin-left: 80px;
     padding-bottom: 40px;
@@ -28,22 +13,23 @@ aside img {
     width: auto;
     padding-right: 40px;
 }
-.Section { grid-area: Section;
+
+section {
     margin-left: 40px;
     margin-right: 40px;
+    padding-top: 10px;
     padding-bottom: 50px;
 }
+
 @media screen and (max-width: 640px) {
-    main {
+    aside {
         float: left;
-        grid-gap: 0;
-        grid-template-rows: 1fr;
-        grid-template-columns: 1fr;
-        grid-template-areas: "Aside"
-                             "Section";
+        padding-bottom: 5px;
     }
+        
     section {
         float: left;
-        width: 100%
+        width: 100%;
+        padding-bottom: 10px;
     }
 }
