@@ -54,90 +54,82 @@ footer {
 .Emailicon:hover {
         transform: scale(2);        
     }
+ /* styles for grid on About Page*/
+ 
+ .class-for-about
+ section {
+     display: grid;
+     grid-template: 2fr 2fr / 25% 50%;
+     grid-gap: 50px 25px;
+     margin-left: 40px;
+     font-family: "EB Garamond", sans-serif;
+ }
+ .class-for-about
+ main img {
+     width: 100%;
+     height: auto;
+     border: black 3px;
+ }
+ 
+ .class-for-about
+ section img {
+     border: 2px solid #000000;
+ }
+ 
+ section video {
+     border: 2px solid #000000;
+ }
+ 
+ 
+ /*styles for the sidebar*/
+ .class-for-about
+ aside {
+     width: 35%;
+     float: right;
+     padding: 20px;
+     margin-right: 40px;
+     font-family: "EB Garamond", sans-serif;
+     font-weight: normal;
+     }
+     
+ .figure
+ figure, figcaption {
+     margin: 0;
+     padding: 0;
+ }
+ figure {
+     border: none;
+     width: 425px;
+ }
+ figcaption {
+     font-weight: bold;
+     text-align: center;
+     font-size: 125%;
+ }
+ table {
+     border: 2px solid black;
+     border-collapse: collapse;
+ }
+ th, td {
+     border: 2px solid black;
+     padding: .3em .5em;
+     text-align: right;
+ }
+ th.left, td.left {
+     text-align: left;
+ }
+ thead, tfoot {
+     background-color: #D9763D;
+     font-weight: bold;
+ }
+ tbody tr:nth-child(odd) {
+     background-color: #F2A341;
+ }
+ 
 
-  /* styles for grid on About Page*/
-  .class-for-about
-#nav_menu h2 {
-    float: left;
-    margin-left: 40px;
-}
-
-.class-for-about
-section {
-    display: grid;
-    grid-template: 2fr 2fr / 25% 50%;
-    grid-gap: 50px 25px;
-    margin-left: 40px;
-    font-family: "EB Garamond", sans-serif;
-}
-.class-for-about
-main img {
-    width: 100%;
-    height: auto;
-    border: black 3px;
-}
-
-.class-for-about
-section img {
-    border: 2px solid #000000;
-}
-
-section video {
-    border: 2px solid #000000;
-}
-
-
-/*styles for the sidebar*/
-.class-for-about
-aside {
-    width: 35%;
-    float: right;
-    padding: 20px;
-    margin-right: 40px;
-    font-family: "EB Garamond", sans-serif;
-    font-weight: normal;
-    }
-    
-.figure
-figure, figcaption {
-    margin: 0;
-    padding: 0;
-}
-figure {
-    border: none;
-    width: 425px;
-}
-figcaption {
-    font-weight: bold;
-    text-align: center;
-    font-size: 125%;
-}
-table {
-    border: 2px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    border: 2px solid black;
-    padding: .3em .5em;
-    text-align: right;
-}
-th.left, td.left {
-    text-align: left;
-}
-thead, tfoot {
-    background-color: #D9763D;
-    font-weight: bold;
-}
-tbody tr:nth-child(odd) {
-    background-color: #F2A341;
-}
 
 /*styles for Reflection Page*/
-.class-for-reflection
-#nav_menu h2 {
-    float: left;
-    margin-left: 40px;
-}
+
 .class-for-reflection
 main {
     margin-left: 50px;
