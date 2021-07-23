@@ -1,8 +1,4 @@
 /*styles for Projects Page*/
-#nav_menu h2 {
-    float: left;
-    margin-left: 40px;
-}
 
 main { 
     display: grid;
