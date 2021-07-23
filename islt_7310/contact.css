@@ -33,11 +33,14 @@ input:focus {
     border: 2px solid black
 }
 textarea {
+    margin-left: 1em;
     height: 4em;
     width: 50em;
+    font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }
 #Messages {
+    margin-left: 1em;
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
 }

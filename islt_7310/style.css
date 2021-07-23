@@ -18,7 +18,7 @@ header img {
     width: 100%;
     height: auto;
 }
-
+/*styles for body for all pages*/
 body {
     width: 100%;
     border: none;
@@ -27,17 +27,14 @@ body {
     font-size: 15pt;
     font-weight: bolder;
 }
-
 h2 {
     color:  #7a0f05;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 h3 {
     color:  #7a0f05;
     font-family: Arial, Helvetica, sans-serif;
 }
-
 
   /*styles for footer*/
 footer {
@@ -54,21 +51,13 @@ footer {
 .Emailicon:hover {
         transform: scale(2);        
     }
- /* styles for grid on About Page*/
- 
-
- 
-
 
 /*styles for Reflection Page*/
-
 .class-for-reflection
 main {
     margin-left: 50px;
     margin-right: 50px;
 }
-
-
 
 @media screen and (max-width: 640px) {
     #hamburger {
