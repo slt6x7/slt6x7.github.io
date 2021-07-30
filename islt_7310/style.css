@@ -22,7 +22,6 @@ header img {
 body {
     width: 100%;
     border: none;
-    margin: 20px;
     font-family: "EB Garamond", serif;
     font-size: 15pt;
     font-weight: bolder;
@@ -40,10 +39,11 @@ h3 {
 footer {
         background-image: url(Images/Libraryfooter3.jpg);
         width: 100%;
-        font-size: 15pt;
+        font-size: 13pt;
         font-weight: 400;
         font-family: "EB Garamond", sans-serif;
   }
+  
 .phoneicon:hover {
     transform: scale(2);
 }
